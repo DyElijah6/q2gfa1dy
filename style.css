@@ -1,0 +1,70 @@
+*{margin:0}
+
+div{
+  display: block;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: #14402D;  
+    height: 13vh;
+    padding-left: 2vw;
+}
+.title{
+  font-size: 50pt;
+  color: white;
+  font-family: boysenbold;
+}
+.navlinks{
+    margin: 5vh;
+}
+#links{
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 1vw;
+}
+#vid{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+.bannerheader1{
+  color: #f7b500;
+  font-size: 70pt;
+  font-family: boysenbold;
+  justify-content: space-between;
+  margin-left: 2vw;
+}
+footer{
+  margin-top: 60vh;
+  height: 10.7vh;
+  background-color: #14402D;
+  position: relative;
+  padding-left: 2vw;
+}
+.icon{
+  background: url(images/sprite3.png);
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 66px;
+  display: inline-block;  
+}
+#fb{
+  background-position: -439px -146px;
+}
+#twt{
+  background-position: -66px -72px;
+}
+#ig{
+  background-position: -290px -221px;
+}
+#yt{
+  background-position: -439px -221px;
+}
+@font-face{
+    font-family: boysenbold;
+    src: url(Boysenfont/OTF/BoysenBold.otf)
+}
